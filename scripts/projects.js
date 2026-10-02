@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
             slug: "handwoven-youth",
             date: "2025",
             description: "Built a site for an emerging youth literacy nonprofit",
-            tags: ["Webflow"],
+            tags: ["Webflow", "Social Media"],
             content: "./content/handwoven-youth.md",
             preview: "./images/handwoven-youth/preview3.png",
             alt: "home page of the Handwoven Youth website",
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
             slug: "eternal-september",
             date: "2025",
             description: "Designing and programming a wiki for a hypermedia exhibition series",
-            tags: ["PHP", "CSS"],
+            tags: ["PHP", "HTML/CSS"],
             content: "./content/eternal-september.md",
             preview: "./images/eternal-september/preview.gif",
             alt: "navigating the Eternal September wiki",
@@ -147,24 +147,28 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Tag colors mapping
     const tagColors = {
-        "UI Design": "rgba(78, 141, 254, 0.5)",
-        "Product Team": "rgba(46, 204, 113, 0.5)",
-        "Web Design": "rgba(230, 126, 34, 0.5)",
-        "Design Systems": "rgba(231, 76, 60, 0.5)",
-        "User Personas": "rgba(155, 89, 182, 0.5)",
-        "Interviewing": "rgba(52, 152, 219, 0.5)",
-        "Accessibility": "rgba(218, 71, 183, 0.5)",
-        "UI Components": "rgba(26, 188, 156, 0.5)",
-        "React": "rgba(119, 123, 179, 0.5)",
-        "Web Art": "rgba(231, 76, 60, 0.5)",
-        "PHP": "rgba(230, 126, 34, 0.5)",
-        "Linux": "rgba(252, 226, 1, 0.5)",
-        "Product Design": "rgba(175, 122, 197, 0.5)",
-        "Graphic Design": "rgba(26, 188, 156, 0.5)",
-        "Drupal": "rgba(0, 114, 188, 0.5)",
-        "CMS": "rgba(241, 196, 15, 0.5)",
-        "Webflow": "rgba(58, 141, 164, 0.5)",
-        "CSS": "rgba(155, 89, 182, 0.5)"
+        "UI Design": "rgba(23, 51, 103, 0.5)",
+        "Product Team": "rgb(23, 91, 51)",
+        "Web Design": "rgb(104, 129, 30)",
+        "Design Systems": "rgb(103, 30, 22)",
+        "User Personas": "rgb(88, 26, 112)",
+        "Interviewing": "rgb(18, 62, 92)",
+        "Accessibility": "rgb(173, 52, 145)",
+        "UI Components": "rgb(22, 128, 106)",
+        "React": "rgb(81, 84, 129)",
+        "Web Art": "rgb(170, 49, 158)",
+        "PHP": "rgb(108, 60, 18)",
+        "Linux": "rgb(113, 104, 22)",
+        "Product Design": "rgb(96, 43, 119)",
+        "Graphic Design": "rgb(15, 125, 103)",
+        "Drupal": "rgb(10, 90, 144)",
+        "CMS": "rgb(150, 122, 13)",
+        "Webflow": "rgb(25, 117, 143)",
+        "CSS": "rgb(117, 39, 147)",
+                "Social Media": "rgb(172, 37, 93)",
+                 "Cataloguing": "rgba(109, 0, 2, 0.5)",
+                                  "HTML/CSS": "rgb(26, 125, 34)",
+
     };
 
     // DOM elements
@@ -180,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // State
     let activeCategory = 'Featured';
     let activeProject = null;
-    const scrollThreshold = 530;
+    const scrollThreshold = 280;
     
     // Check if we're on GitHub Pages
     const isGitHubPages = window.location.hostname.includes('github.io');

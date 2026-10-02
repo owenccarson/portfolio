@@ -1,5 +1,5 @@
 <div class="flex-row">
-<div class="flex-1"><img id="owen-drawing" src='./images/owen.svg' alt="hand drawn stick figure rearranging the name 'Owen'" style="transform: translate3d(120px, 30px, 0px)"></div>
+<div class="flex-1"></div>
 <div class="flex-1">
 
 <p>Hi there! </p>

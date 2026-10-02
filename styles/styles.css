@@ -1,8 +1,8 @@
 :root {
     --dark: rgb(28, 28, 28);
-    --light: rgb(237, 237, 237);
+    --light: rgb(246, 246, 246);
     --light-grey: rgb(183, 183, 183);
-    --grey: grey;
+    --grey: rgb(197, 197, 197);
     --darkgrey: rgb(61, 61, 61);
     overscroll-behavior: none;
     font-variant-emoji: text !important;
@@ -69,7 +69,7 @@ table {
 
 .rounded.border {
     border-radius: 5px;
-    border: 1px solid rgb(90, 90, 90);
+    border: 1px solid rgb(219, 209, 209);
 }
 
 .visit {
@@ -97,7 +97,6 @@ p {
 html {
     overscroll-behavior: none;
 
-    background-color: #333333;
 }
 
 h1,
@@ -121,7 +120,6 @@ h3 {
 
 
 .dynamic-container {
-    min-height: 800px;
     /* Adjust based on your average content height */
 }
 
@@ -165,9 +163,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
-    background-color: var(--dark);
-    color: var(--light);
-    background-image: url('../images/dark-wall.png');
+    background-color: var(--light);
+    color: var(--dark);
     background-repeat: repeat;
     background-size: auto;
     background-attachment: fixed;
@@ -188,8 +185,6 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: var(--dark);
-        background-image: url('../images/dark-wall.png');
         background-repeat: repeat;
         background-size: auto;
         z-index: -1;
