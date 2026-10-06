@@ -97,8 +97,10 @@
 }
 
 .item-date {
-    font-family: "Libre Franklin";
-    color: rgb(134, 134, 134)
+    font-family: "UTM", monospace;
+    color: rgb(80, 80, 80);
+    font-size: .8rem;
+
 }
 
 
@@ -110,14 +112,15 @@
 }
 
 .tag {
-    font-family: "Libre Franklin";
+    font-family: "UTM", monospace;
     display: inline-block;
     padding: 3px 8px;
     border-radius: 4px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--light);
     /* background-color is now set dynamically in JS */
     font-weight: 400;
+
 }
 
 
@@ -242,7 +245,7 @@
 }
 
 .see-also-title {
-    font-family: "Libre Franklin", sans-serif;
+    font-family: "UTM", monospace;
     text-transform: uppercase;
 }
 
