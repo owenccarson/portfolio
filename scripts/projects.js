@@ -26,16 +26,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const projects = [
         {
             id: 0,
-            title: "We Collage",
-            slug: "we-collage",
+            title: "Web Collage",
+            slug: "web-collage",
             date: "2025",
             description: "Programmed a web-based collage platform and gallery for interpreting trending Google search data.",
             tags: ["React", "Web Art"],
             content: "./content/we-collage.md",
             preview: "./images/we-collage/snipping.gif",
-            alt: "collages made using the We Collage platform",
+            alt: "collages made using the Web Collage platform",
             status: "active",
-            featuredStatus: "More"
+            featuredStatus: "Featured"
         },
         {
             id: 0,
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
             preview: "./images/brown-ouc/ss1.jpeg",
             alt: "VSCode logo",
             status: "active",
-            featuredStatus: "More"
+            featuredStatus: "Featured"
         }
     ];
 
@@ -525,7 +525,6 @@ document.addEventListener('DOMContentLoaded', function () {
         
         setTimeout(() => {
             // Update UI
-            projectIndex.style.display = 'flex';
             projectContent.style.display = 'none';
             
             // Update breadcrumbs

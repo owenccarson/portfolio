@@ -7,7 +7,7 @@
 <div class="flex-row">
 <div class="flex-1">
 
-# We Collage
+# Web Collage
 
 </div>
 
@@ -30,7 +30,7 @@
                     <div class="tag" style="background-color: rgba(150, 150, 150, 0.25);">Collage</div>
 </div>
 
-We Collage is a web art project that prompts users to creatively interpret trending Google search data through assembling collages. Once a collage is created, it can be submitted to an anonymous chronological public gallery.
+Web Collage is a web art project that prompts users to creatively interpret trending Google search data through assembling collages. Once a collage is created, it can be submitted to an anonymous chronological public gallery.
 
 <div class="spacer-90"></div>
 
